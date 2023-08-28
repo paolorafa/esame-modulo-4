@@ -1,0 +1,94 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.my-container i{
+    font-size: 20px;
+}
+
+.my-div{
+    border: 2px solid black;
+}
+
+.table {
+    font-size: 10px;
+}
+
+.button-form{
+    font-size: 10px;
+}
+.my-logo{
+    font-size: 10px;
+}
+
+.mask{
+    height: 62vh;
+}
+
+.my-button{
+    
+    transform: translate(480px, -350px);
+}
+
+.container-card {
+    position: relative;
+    
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container-card:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container-card:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.icon-container .badge {
+    position: absolute;
+    bottom: 2px; /* Posiziona il numero sotto l'icona */
+    right: 21px; /* Regola la posizione orizzontale del numero */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    height: 10rem;
+    top: 20rem;
+}

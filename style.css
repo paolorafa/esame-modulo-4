@@ -76,8 +76,8 @@ body{
 
 .icon-container .badge {
     position: absolute;
-    bottom: 2px; /* Posiziona il numero sotto l'icona */
-    right: 21px; /* Regola la posizione orizzontale del numero */
+    bottom: 2px; 
+    right: 21px; 
     background-color: red;
     color: white;
     border-radius: 50%;
